@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  background:#dedede;
+  padding:48px;
+}
+
+h1 {
+  text-align:center;
+display:inline-block;
+font-size:72px;
+}
+
+#bot {
+    width: 80px;
+    height: auto;
+}
+
+.navmenu {
+    height: auto;
+    width: auto;
+    font-size: 50px;
+    padding: 10px;
+}

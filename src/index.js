@@ -1,13 +1,8 @@
-$(document).ready(function(){
-  $("p").on({
-    mouseenter: function(){
-      $(this).css("background-color", "lightgray");
-    },
-    mouseleave: function(){
-      $(this).css("background-color", "lightblue");
-    },
-    click: function(){
-      $(this).css("background-color", "yellow");
-    }
+const button = document.querySelector('#button');
+const tooltip = document.querySelector('#tooltip');
+
+  // Pass the button, the tooltip, and some options, and Popper will do the
+  // magic positioning for you:
+  Popper.createPopper(button, tooltip, {
+    placement: 'right',
   });
-});

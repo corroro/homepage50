@@ -4,6 +4,10 @@ body {
   padding:48px;
 }
 
+html {
+  background:#000000;
+}
+
 h1 {
   text-align:center;
 display:inline-block;

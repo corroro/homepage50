@@ -1,8 +1,9 @@
-const button = document.querySelector('#button');
-const tooltip = document.querySelector('#tooltip');
-
-  // Pass the button, the tooltip, and some options, and Popper will do the
-  // magic positioning for you:
-  Popper.createPopper(button, tooltip, {
-    placement: 'right',
+$(document).ready(function() {
+  $("#list-profile-list").click(function() {
+    $("#list-profile-list").addClass("active");
+    $("#list-home").removeClass("show active");
+    $("#list-profile").addClass("show active");
+    $("#list-messages").removeClass("show active");
+    $("#list-settings").removeClass("show active");
   });
+});
